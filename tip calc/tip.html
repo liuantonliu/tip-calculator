@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/tip.css"> 
+</head>
+<body>
+    <div>
+        <h1>Tip calculator</h1>
+        <div class = "inputClass">
+            <input type="number" id="txtMealCost" required>
+            <label> Enter meal cost </label>
+            </input>
+        </div>
+        <div class = "inputClass">
+            <input type="number" id="txtTipPercentage" required>
+            <label> Enter tip percentage </label>
+        </div>
+        <h2 id="lblTipTotal">TIP TOTAL</h2>
+        
+        <button onclick="btnCalculate()">Calculate</button><br>
+        <button id="btnclear" onclick="btnClear()">Clear</button>
+    </div>
+    <script src="tip.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+*{
+    font-family: Futura, sans-serif;
+}
+button{
+    font-family: Futura, sans-serif;
+    background-color: #FFDA47;
+    border: none;
+    line-height: 0;
+    font-size: 60px;
+    padding: 30px 15px;
+    border-radius: 60px; 
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+button:hover, #btnclear:hover{
+    background-color: white;
+    color: #3A3A3A;
+}
+
+button:focus, #btnclear:focus{
+    color: orange;
+}
+
+#btnclear{
+    background-color: #Ea8A00;
+}
+
+html{
+    background-color: #1A1A1A;
+}
+
+div{
+    position: relative;
+    background-color: #3A3A3A;
+    max-width: 500px;
+    min-width: 400px;
+    box-sizing: border-box;
+    padding: 30px 25px;
+    border-radius: 30px;
+    margin: 40px 0;
+    left: 50%;
+    transform:translate(-50%,0);
+
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+
+input{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-radius:60px;
+    color: orange;
+    position: relative;
+    color: #3A3A3A;
+}
+
+input:focus {
+    outline:none;
+    background: #FFDA47;
+    color:white;
+}
+
+input:valid{
+    color: #3A3A3A;
+}
+
+input:focus ~ label{
+    transform: translate(0,-35);
+    color: white;
+}
+
+input:valid ~ label{
+    transform: translate(5px,-35px); 
+    color: white;
+}
+
+label{
+    color: #3A3A3A;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    display: block;
+    position: relative;
+    margin-top: -40px;
+    z-index: 2;
+    pointer-events: none;
+}
